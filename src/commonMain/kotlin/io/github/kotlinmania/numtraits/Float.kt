@@ -76,7 +76,7 @@ public interface FloatCore<T> :
         b: T,
     ): Int
 
-    public fun isNan(value: T): Boolean
+    public fun isNan(value: T): Boolean = value != value
 
     public fun isInfinite(value: T): Boolean = value == infinity() || value == negInfinity()
 
