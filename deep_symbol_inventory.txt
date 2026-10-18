@@ -1,0 +1,726 @@
+
+=== Complete Source Symbol Inventory ===
+Types, API declarations, functions, properties/constants, enum variants and aliases.
+Name/owner presence is distinct from parameter/body/overload parity reported above. Parser warnings remain review requirements.
+PRESENT type Bounded at tmp/num-traits/src/bounds.rs:9 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:27
+PRESENT type LowerBounded at tmp/num-traits/src/bounds.rs:18 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:7
+MISSING_SYMBOL function min_value at tmp/num-traits/src/bounds.rs:25
+PRESENT type UpperBounded at tmp/num-traits/src/bounds.rs:31 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:17
+MISSING_SYMBOL function max_value at tmp/num-traits/src/bounds.rs:38
+MISSING_SYMBOL function min_value at tmp/num-traits/src/bounds.rs:76
+MISSING_SYMBOL function max_value at tmp/num-traits/src/bounds.rs:79
+MISSING_SYMBOL function wrapping_bounded at tmp/num-traits/src/bounds.rs:120
+MISSING_SYMBOL function wrapping_bounded_i128 at tmp/num-traits/src/bounds.rs:135
+MISSING_SYMBOL function wrapping_is_bounded at tmp/num-traits/src/bounds.rs:149
+EXTRA_TARGET_SYMBOL function LowerBounded::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:11
+EXTRA_TARGET_SYMBOL function UpperBounded::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:21
+EXTRA_TARGET_SYMBOL type ByteBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:31
+EXTRA_TARGET_SYMBOL function ByteBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:32
+EXTRA_TARGET_SYMBOL function ByteBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:34
+EXTRA_TARGET_SYMBOL type ShortBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:37
+EXTRA_TARGET_SYMBOL function ShortBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:38
+EXTRA_TARGET_SYMBOL function ShortBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:40
+EXTRA_TARGET_SYMBOL type IntBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:43
+EXTRA_TARGET_SYMBOL function IntBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:44
+EXTRA_TARGET_SYMBOL function IntBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:46
+EXTRA_TARGET_SYMBOL type LongBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:49
+EXTRA_TARGET_SYMBOL function LongBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:50
+EXTRA_TARGET_SYMBOL function LongBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:52
+EXTRA_TARGET_SYMBOL type UByteBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:55
+EXTRA_TARGET_SYMBOL function UByteBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:56
+EXTRA_TARGET_SYMBOL function UByteBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:58
+EXTRA_TARGET_SYMBOL type UShortBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:61
+EXTRA_TARGET_SYMBOL function UShortBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:62
+EXTRA_TARGET_SYMBOL function UShortBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:64
+EXTRA_TARGET_SYMBOL type UIntBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:67
+EXTRA_TARGET_SYMBOL function UIntBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:68
+EXTRA_TARGET_SYMBOL function UIntBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:70
+EXTRA_TARGET_SYMBOL type ULongBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:73
+EXTRA_TARGET_SYMBOL function ULongBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:74
+EXTRA_TARGET_SYMBOL function ULongBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:76
+EXTRA_TARGET_SYMBOL type FloatBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:79
+EXTRA_TARGET_SYMBOL function FloatBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:80
+EXTRA_TARGET_SYMBOL function FloatBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:82
+EXTRA_TARGET_SYMBOL type DoubleBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:85
+EXTRA_TARGET_SYMBOL function DoubleBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:86
+EXTRA_TARGET_SYMBOL function DoubleBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:88
+EXTRA_TARGET_SYMBOL type UnitBounds at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:91
+EXTRA_TARGET_SYMBOL function UnitBounds::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:92
+EXTRA_TARGET_SYMBOL function UnitBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:94
+EXTRA_TARGET_SYMBOL type BoundsTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:7
+EXTRA_TARGET_SYMBOL function BoundsTest::testWrappingBounds at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:8
+EXTRA_TARGET_SYMBOL function BoundsTest::wrappingIsBounded at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:17
+PRESENT type ToPrimitive at tmp/num-traits/src/cast.rs:19 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:11
+PRESENT function ToPrimitive::to_isize at tmp/num-traits/src/cast.rs:23 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:23
+PRESENT function ToPrimitive::to_i8 at tmp/num-traits/src/cast.rs:30 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:12
+PRESENT function ToPrimitive::to_i16 at tmp/num-traits/src/cast.rs:37 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:14
+PRESENT function ToPrimitive::to_i32 at tmp/num-traits/src/cast.rs:44 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:19
+MISSING_SYMBOL function ToPrimitive::to_i128 at tmp/num-traits/src/cast.rs:62
+PRESENT function ToPrimitive::to_usize at tmp/num-traits/src/cast.rs:69 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:33
+PRESENT function ToPrimitive::to_u8 at tmp/num-traits/src/cast.rs:76 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:25
+PRESENT function ToPrimitive::to_u16 at tmp/num-traits/src/cast.rs:83 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:27
+PRESENT function ToPrimitive::to_u32 at tmp/num-traits/src/cast.rs:90 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:29
+MISSING_SYMBOL function ToPrimitive::to_u128 at tmp/num-traits/src/cast.rs:108
+PRESENT function ToPrimitive::to_f32 at tmp/num-traits/src/cast.rs:116 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:35
+PRESENT function ToPrimitive::to_f64 at tmp/num-traits/src/cast.rs:128 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:44
+PRESENT type FromPrimitive at tmp/num-traits/src/cast.rs:411 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:51
+PRESENT function FromPrimitive::from_isize at tmp/num-traits/src/cast.rs:415 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:60
+PRESENT function FromPrimitive::from_i8 at tmp/num-traits/src/cast.rs:422 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:52
+PRESENT function FromPrimitive::from_i16 at tmp/num-traits/src/cast.rs:429 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:54
+PRESENT function FromPrimitive::from_i32 at tmp/num-traits/src/cast.rs:436 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:56
+MISSING_SYMBOL function FromPrimitive::from_i128 at tmp/num-traits/src/cast.rs:453
+PRESENT function FromPrimitive::from_usize at tmp/num-traits/src/cast.rs:460 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:70
+PRESENT function FromPrimitive::from_u8 at tmp/num-traits/src/cast.rs:467 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:62
+PRESENT function FromPrimitive::from_u16 at tmp/num-traits/src/cast.rs:474 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:64
+PRESENT function FromPrimitive::from_u32 at tmp/num-traits/src/cast.rs:481 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:66
+MISSING_SYMBOL function FromPrimitive::from_u128 at tmp/num-traits/src/cast.rs:498
+PRESENT function FromPrimitive::from_f32 at tmp/num-traits/src/cast.rs:505 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:72
+PRESENT function FromPrimitive::from_f64 at tmp/num-traits/src/cast.rs:516 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:74
+PRESENT function cast at tmp/num-traits/src/cast.rs:686 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:114
+PRESENT type NumCast at tmp/num-traits/src/cast.rs:691 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:87
+MISSING_SYMBOL function from at tmp/num-traits/src/cast.rs:739
+PRESENT type AsPrimitive at tmp/num-traits/src/cast.rs:770 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:107
+EXTRA_TARGET_SYMBOL function ToPrimitive::toI64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:21
+EXTRA_TARGET_SYMBOL function ToPrimitive::toU64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:31
+EXTRA_TARGET_SYMBOL function FromPrimitive::fromI64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:58
+EXTRA_TARGET_SYMBOL function FromPrimitive::fromU64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:68
+EXTRA_TARGET_SYMBOL function NumCast::from at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:90
+EXTRA_TARGET_SYMBOL function NumCast::fromI64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:95
+EXTRA_TARGET_SYMBOL function NumCast::fromU64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:97
+EXTRA_TARGET_SYMBOL function NumCast::fromF32 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:99
+EXTRA_TARGET_SYMBOL function NumCast::fromF64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:101
+EXTRA_TARGET_SYMBOL function AsPrimitive::asPrimitive at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:108
+EXTRA_TARGET_SYMBOL function floatToI8Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:120
+EXTRA_TARGET_SYMBOL function floatToI16Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:127
+EXTRA_TARGET_SYMBOL function floatToI32Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:134
+EXTRA_TARGET_SYMBOL function floatToI64Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:142
+EXTRA_TARGET_SYMBOL function floatToU8Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:150
+EXTRA_TARGET_SYMBOL function floatToU16Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:157
+EXTRA_TARGET_SYMBOL function floatToU32Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:164
+EXTRA_TARGET_SYMBOL function floatToU64Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:171
+EXTRA_TARGET_SYMBOL function doubleToI8Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:184
+EXTRA_TARGET_SYMBOL function doubleToI16Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:191
+EXTRA_TARGET_SYMBOL function doubleToI32Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:198
+EXTRA_TARGET_SYMBOL function doubleToI64Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:205
+EXTRA_TARGET_SYMBOL function doubleToU8Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:212
+EXTRA_TARGET_SYMBOL function doubleToU16Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:219
+EXTRA_TARGET_SYMBOL function doubleToU32Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:226
+EXTRA_TARGET_SYMBOL function doubleToU64Checked at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:233
+PRESENT type FloatCore at tmp/num-traits/src/float.rs:16 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:53
+PRESENT function FloatCore::is_nan at tmp/num-traits/src/float.rs:173 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:79
+PRESENT function FloatCore::is_infinite at tmp/num-traits/src/float.rs:197 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:81
+PRESENT function FloatCore::is_finite at tmp/num-traits/src/float.rs:220 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:83
+PRESENT function FloatCore::is_normal at tmp/num-traits/src/float.rs:243 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:85
+PRESENT function FloatCore::floor at tmp/num-traits/src/float.rs:294 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:89
+PRESENT function FloatCore::ceil at tmp/num-traits/src/float.rs:328 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:100
+PRESENT function FloatCore::round at tmp/num-traits/src/float.rs:361 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:111
+PRESENT function FloatCore::trunc at tmp/num-traits/src/float.rs:405 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:132
+PRESENT function FloatCore::fract at tmp/num-traits/src/float.rs:437 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:141
+PRESENT function FloatCore::abs at tmp/num-traits/src/float.rs:466 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:148
+PRESENT function FloatCore::signum at tmp/num-traits/src/float.rs:500 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:154
+PRESENT function FloatCore::is_sign_positive at tmp/num-traits/src/float.rs:533 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:163
+PRESENT function FloatCore::is_sign_negative at tmp/num-traits/src/float.rs:560 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:165
+PRESENT function FloatCore::min at tmp/num-traits/src/float.rs:585 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:170
+PRESENT function FloatCore::max at tmp/num-traits/src/float.rs:619 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:179
+PRESENT function FloatCore::recip at tmp/num-traits/src/float.rs:652 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:188
+PRESENT function FloatCore::powi at tmp/num-traits/src/float.rs:676 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:190
+PRESENT function integer_decode at tmp/num-traits/src/float.rs:762 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:383
+PRESENT function classify at tmp/num-traits/src/float.rs:768 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:400
+PRESENT function is_sign_negative at tmp/num-traits/src/float.rs:786 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:425
+PRESENT function to_degrees at tmp/num-traits/src/float.rs:797 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:429
+PRESENT function to_radians at tmp/num-traits/src/float.rs:805 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:433
+PRESENT function fract at tmp/num-traits/src/float.rs:846 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:437
+PRESENT function integer_decode at tmp/num-traits/src/float.rs:864 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:383
+PRESENT function classify at tmp/num-traits/src/float.rs:870 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:400
+PRESENT function is_sign_negative at tmp/num-traits/src/float.rs:888 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:425
+PRESENT function to_degrees at tmp/num-traits/src/float.rs:899 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:429
+PRESENT function to_radians at tmp/num-traits/src/float.rs:908 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:433
+PRESENT function fract at tmp/num-traits/src/float.rs:949 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:437
+MISSING_SYMBOL type Float at tmp/num-traits/src/float.rs:961
+MISSING_SYMBOL function Float::epsilon at tmp/num-traits/src/float.rs:1052
+MISSING_SYMBOL function Float::to_degrees at tmp/num-traits/src/float.rs:1483
+MISSING_SYMBOL function Float::to_radians at tmp/num-traits/src/float.rs:1501
+MISSING_SYMBOL function Float::copysign at tmp/num-traits/src/float.rs:1887
+PRESENT function integer_decode_f32 at tmp/num-traits/src/float.rs:2027 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:353
+PRESENT function integer_decode_f64 at tmp/num-traits/src/float.rs:2043 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:367
+MISSING_SYMBOL function abs_sub at tmp/num-traits/src/float.rs:2070
+MISSING_SYMBOL function abs_sub at tmp/num-traits/src/float.rs:2118
+MISSING_SYMBOL property DEG_RAD_PAIRS at tmp/num-traits/src/float.rs:2235
+MISSING_SYMBOL function convert_deg_rad at tmp/num-traits/src/float.rs:2246
+MISSING_SYMBOL function convert_deg_rad_std at tmp/num-traits/src/float.rs:2261
+MISSING_SYMBOL function to_degrees_rounding at tmp/num-traits/src/float.rs:2278
+MISSING_SYMBOL function extra_logs at tmp/num-traits/src/float.rs:2289
+PRESENT function copysign at tmp/num-traits/src/float.rs:2308 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:471
+MISSING_SYMBOL function test_copysignf at tmp/num-traits/src/float.rs:2316
+MISSING_SYMBOL function test_copysign_generic at tmp/num-traits/src/float.rs:2336
+EXTRA_TARGET_SYMBOL type FpCategory at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:16
+EXTRA_TARGET_SYMBOL enum_variant FpCategory::Nan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:17
+EXTRA_TARGET_SYMBOL enum_variant FpCategory::Infinite at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:18
+EXTRA_TARGET_SYMBOL enum_variant FpCategory::Zero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:19
+EXTRA_TARGET_SYMBOL enum_variant FpCategory::Subnormal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:20
+EXTRA_TARGET_SYMBOL enum_variant FpCategory::Normal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:21
+EXTRA_TARGET_SYMBOL type DecodedFloat at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:28
+EXTRA_TARGET_SYMBOL property DecodedFloat::mantissa at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:29
+EXTRA_TARGET_SYMBOL property DecodedFloat::exponent at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:30
+EXTRA_TARGET_SYMBOL property DecodedFloat::sign at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:31
+EXTRA_TARGET_SYMBOL type SinCosF32 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:37
+EXTRA_TARGET_SYMBOL property SinCosF32::sin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:38
+EXTRA_TARGET_SYMBOL property SinCosF32::cos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:39
+EXTRA_TARGET_SYMBOL type SinCosF64 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:45
+EXTRA_TARGET_SYMBOL property SinCosF64::sin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:46
+EXTRA_TARGET_SYMBOL property SinCosF64::cos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:47
+EXTRA_TARGET_SYMBOL function FloatCore::infinity at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:56
+EXTRA_TARGET_SYMBOL function FloatCore::negInfinity at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:58
+EXTRA_TARGET_SYMBOL function FloatCore::nan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:60
+EXTRA_TARGET_SYMBOL function FloatCore::negZero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:62
+EXTRA_TARGET_SYMBOL function FloatCore::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:64
+EXTRA_TARGET_SYMBOL function FloatCore::minPositiveValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:66
+EXTRA_TARGET_SYMBOL function FloatCore::epsilon at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:68
+EXTRA_TARGET_SYMBOL function FloatCore::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:70
+EXTRA_TARGET_SYMBOL function FloatCore::neg at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:72
+EXTRA_TARGET_SYMBOL function FloatCore::compare at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:74
+EXTRA_TARGET_SYMBOL function FloatCore::classify at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:87
+EXTRA_TARGET_SYMBOL function FloatCore::toDegrees at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:215
+EXTRA_TARGET_SYMBOL function FloatCore::toRadians at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:217
+EXTRA_TARGET_SYMBOL function FloatCore::integerDecode at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:219
+EXTRA_TARGET_SYMBOL type NumFloat at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:225
+EXTRA_TARGET_SYMBOL function NumFloat::mulAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:226
+EXTRA_TARGET_SYMBOL function NumFloat::powf at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:232
+EXTRA_TARGET_SYMBOL function NumFloat::sqrt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:237
+EXTRA_TARGET_SYMBOL function NumFloat::exp at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:239
+EXTRA_TARGET_SYMBOL function NumFloat::exp2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:241
+EXTRA_TARGET_SYMBOL function NumFloat::ln at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:243
+EXTRA_TARGET_SYMBOL function NumFloat::log at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:245
+EXTRA_TARGET_SYMBOL function NumFloat::log2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:250
+EXTRA_TARGET_SYMBOL function NumFloat::log10 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:252
+EXTRA_TARGET_SYMBOL function NumFloat::absSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:254
+EXTRA_TARGET_SYMBOL function NumFloat::cbrt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:259
+EXTRA_TARGET_SYMBOL function NumFloat::hypot at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:261
+EXTRA_TARGET_SYMBOL function NumFloat::sin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:266
+EXTRA_TARGET_SYMBOL function NumFloat::cos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:268
+EXTRA_TARGET_SYMBOL function NumFloat::tan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:270
+EXTRA_TARGET_SYMBOL function NumFloat::asin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:272
+EXTRA_TARGET_SYMBOL function NumFloat::acos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:274
+EXTRA_TARGET_SYMBOL function NumFloat::atan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:276
+EXTRA_TARGET_SYMBOL function NumFloat::atan2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:278
+EXTRA_TARGET_SYMBOL function NumFloat::expM1 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:283
+EXTRA_TARGET_SYMBOL function NumFloat::ln1p at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:285
+EXTRA_TARGET_SYMBOL function NumFloat::sinh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:287
+EXTRA_TARGET_SYMBOL function NumFloat::cosh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:289
+EXTRA_TARGET_SYMBOL function NumFloat::tanh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:291
+EXTRA_TARGET_SYMBOL function NumFloat::asinh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:293
+EXTRA_TARGET_SYMBOL function NumFloat::acosh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:295
+EXTRA_TARGET_SYMBOL function NumFloat::atanh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:297
+EXTRA_TARGET_SYMBOL function NumFloat::copysign at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:299
+EXTRA_TARGET_SYMBOL type FloatConst at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:313
+EXTRA_TARGET_SYMBOL function FloatConst::e at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:314
+EXTRA_TARGET_SYMBOL function FloatConst::frac1Pi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:316
+EXTRA_TARGET_SYMBOL function FloatConst::frac1Sqrt2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:318
+EXTRA_TARGET_SYMBOL function FloatConst::frac2Pi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:320
+EXTRA_TARGET_SYMBOL function FloatConst::frac2SqrtPi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:322
+EXTRA_TARGET_SYMBOL function FloatConst::fracPi2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:324
+EXTRA_TARGET_SYMBOL function FloatConst::fracPi3 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:326
+EXTRA_TARGET_SYMBOL function FloatConst::fracPi4 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:328
+EXTRA_TARGET_SYMBOL function FloatConst::fracPi6 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:330
+EXTRA_TARGET_SYMBOL function FloatConst::fracPi8 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:332
+EXTRA_TARGET_SYMBOL function FloatConst::ln10 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:334
+EXTRA_TARGET_SYMBOL function FloatConst::ln2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:336
+EXTRA_TARGET_SYMBOL function FloatConst::log10E at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:338
+EXTRA_TARGET_SYMBOL function FloatConst::log2E at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:340
+EXTRA_TARGET_SYMBOL function FloatConst::pi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:342
+EXTRA_TARGET_SYMBOL function FloatConst::sqrt2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:344
+EXTRA_TARGET_SYMBOL function FloatConst::tau at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:346
+EXTRA_TARGET_SYMBOL function FloatConst::log102 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:348
+EXTRA_TARGET_SYMBOL function FloatConst::log210 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:350
+EXTRA_TARGET_SYMBOL function isNormal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:415
+EXTRA_TARGET_SYMBOL function isNormal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:417
+EXTRA_TARGET_SYMBOL function isSignPositive at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:419
+EXTRA_TARGET_SYMBOL function isSignPositive at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:421
+EXTRA_TARGET_SYMBOL function roundHalfAwayFromZero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:439
+EXTRA_TARGET_SYMBOL function roundHalfAwayFromZero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:444
+EXTRA_TARGET_SYMBOL function recip at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:449
+EXTRA_TARGET_SYMBOL function recip at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:451
+EXTRA_TARGET_SYMBOL function powi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:453
+EXTRA_TARGET_SYMBOL function powi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:455
+EXTRA_TARGET_SYMBOL function powf at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:457
+EXTRA_TARGET_SYMBOL function powf at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:459
+EXTRA_TARGET_SYMBOL function exp2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:461
+EXTRA_TARGET_SYMBOL function exp2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:463
+EXTRA_TARGET_SYMBOL function sinCos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:465
+EXTRA_TARGET_SYMBOL function sinCos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Float.kt:467
+EXTRA_TARGET_SYMBOL type FloatTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:10
+EXTRA_TARGET_SYMBOL property FloatTest::degRadPairs at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:11
+EXTRA_TARGET_SYMBOL function FloatTest::convertDegRad at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:22
+EXTRA_TARGET_SYMBOL function FloatTest::toDegreesRounding at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:35
+EXTRA_TARGET_SYMBOL function FloatTest::extraLogs at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:43
+EXTRA_TARGET_SYMBOL function FloatTest::copysign at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:73
+EXTRA_TARGET_SYMBOL function FloatTest::testCopysignGeneric at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:79
+PRESENT type Zero at tmp/num-traits/src/identities.rs:12 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:7
+PRESENT function Zero::set_zero at tmp/num-traits/src/identities.rs:23 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:21
+PRESENT function is_zero at tmp/num-traits/src/identities.rs:69 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:92
+MISSING_SYMBOL function set_zero at tmp/num-traits/src/identities.rs:73
+PRESENT function zero at tmp/num-traits/src/identities.rs:77 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:67
+PRESENT type One at tmp/num-traits/src/identities.rs:90 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:37
+PRESENT function One::set_one at tmp/num-traits/src/identities.rs:102 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:51
+PRESENT function One::is_one at tmp/num-traits/src/identities.rs:112 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:46
+MISSING_SYMBOL function set_one at tmp/num-traits/src/identities.rs:158
+PRESENT function one at tmp/num-traits/src/identities.rs:162 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:72
+PRESENT function zero at tmp/num-traits/src/identities.rs:171 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:67
+PRESENT function one at tmp/num-traits/src/identities.rs:177 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:72
+MISSING_SYMBOL function wrapping_identities at tmp/num-traits/src/identities.rs:182
+MISSING_SYMBOL function wrapping_is_zero at tmp/num-traits/src/identities.rs:198
+MISSING_SYMBOL function wrapping_is_one at tmp/num-traits/src/identities.rs:203
+EXTRA_TARGET_SYMBOL function Zero::zero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:11
+EXTRA_TARGET_SYMBOL function Zero::isZero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:16
+EXTRA_TARGET_SYMBOL type ConstZero at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:27
+EXTRA_TARGET_SYMBOL property ConstZero::zeroConstant at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:31
+EXTRA_TARGET_SYMBOL function One::one at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:41
+EXTRA_TARGET_SYMBOL type ConstOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:57
+EXTRA_TARGET_SYMBOL property ConstOne::oneConstant at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:61
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:94
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:96
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:98
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:100
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:102
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:104
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:106
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:108
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:110
+EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:112
+EXTRA_TARGET_SYMBOL type IdentitiesTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:9
+EXTRA_TARGET_SYMBOL function IdentitiesTest::zeroAndOnePrimitives at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:10
+EXTRA_TARGET_SYMBOL function IdentitiesTest::constIdentities at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:64
+PRESENT type PrimInt at tmp/num-traits/src/int.rs:34 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:13
+PRESENT function PrimInt::leading_ones at tmp/num-traits/src/int.rs:93 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:80
+PRESENT function PrimInt::trailing_ones at tmp/num-traits/src/int.rs:123 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:90
+PRESENT function PrimInt::reverse_bits at tmp/num-traits/src/int.rs:269 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:159
+PRESENT function one_per_byte at tmp/num-traits/src/int.rs:361 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:190
+PRESENT function reverse_bits_fallback at tmp/num-traits/src/int.rs:377 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:202
+PRESENT function reverse_bits at tmp/num-traits/src/int.rs:519 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:265
+MISSING_SYMBOL function reverse_bits_i128 at tmp/num-traits/src/int.rs:558
+EXTRA_TARGET_SYMBOL function PrimInt::inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:25
+EXTRA_TARGET_SYMBOL function PrimInt::bitAnd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:30
+EXTRA_TARGET_SYMBOL function PrimInt::bitOr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:38
+EXTRA_TARGET_SYMBOL function PrimInt::bitXor at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:46
+EXTRA_TARGET_SYMBOL function PrimInt::shl at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:54
+EXTRA_TARGET_SYMBOL function PrimInt::shr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:62
+EXTRA_TARGET_SYMBOL function PrimInt::countOnes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:70
+EXTRA_TARGET_SYMBOL function PrimInt::countZeros at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:75
+EXTRA_TARGET_SYMBOL function PrimInt::leadingZeros at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:85
+EXTRA_TARGET_SYMBOL function PrimInt::trailingZeros at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:95
+EXTRA_TARGET_SYMBOL function PrimInt::rotateLeft at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:101
+EXTRA_TARGET_SYMBOL function PrimInt::rotateRight at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:110
+EXTRA_TARGET_SYMBOL function PrimInt::signedShl at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:119
+EXTRA_TARGET_SYMBOL function PrimInt::signedShr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:128
+EXTRA_TARGET_SYMBOL function PrimInt::unsignedShl at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:137
+EXTRA_TARGET_SYMBOL function PrimInt::unsignedShr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:146
+EXTRA_TARGET_SYMBOL function PrimInt::swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:154
+EXTRA_TARGET_SYMBOL function PrimInt::fromBe at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:164
+EXTRA_TARGET_SYMBOL function PrimInt::fromLe at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:169
+EXTRA_TARGET_SYMBOL function PrimInt::toBe at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:174
+EXTRA_TARGET_SYMBOL function PrimInt::toLe at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:179
+EXTRA_TARGET_SYMBOL function PrimInt::pow at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:184
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:220
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:222
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:224
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:229
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:231
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:237
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:239
+EXTRA_TARGET_SYMBOL function swapBytes at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:249
+EXTRA_TARGET_SYMBOL type IntTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IntTest.kt:7
+EXTRA_TARGET_SYMBOL function IntTest::reverseBits at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IntTest.kt:8
+MISSING_FILE lib.rs
+MISSING_SYMBOL type Num at tmp/num-traits/src/lib.rs:68
+MISSING_SYMBOL type NumOps at tmp/num-traits/src/lib.rs:102
+MISSING_SYMBOL type NumRef at tmp/num-traits/src/lib.rs:124
+MISSING_SYMBOL type RefNum at tmp/num-traits/src/lib.rs:133
+MISSING_SYMBOL type NumAssignOps at tmp/num-traits/src/lib.rs:139
+MISSING_SYMBOL type NumAssign at tmp/num-traits/src/lib.rs:152
+MISSING_SYMBOL type NumAssignRef at tmp/num-traits/src/lib.rs:159
+MISSING_SYMBOL type_alias FromStrRadixErr at tmp/num-traits/src/lib.rs:183
+MISSING_SYMBOL function from_str_radix at tmp/num-traits/src/lib.rs:184
+MISSING_SYMBOL type FloatErrorKind at tmp/num-traits/src/lib.rs:190
+MISSING_SYMBOL enum_variant FloatErrorKind::Empty at tmp/num-traits/src/lib.rs:191
+MISSING_SYMBOL enum_variant FloatErrorKind::Invalid at tmp/num-traits/src/lib.rs:192
+MISSING_SYMBOL type ParseFloatError at tmp/num-traits/src/lib.rs:197
+MISSING_SYMBOL function fmt at tmp/num-traits/src/lib.rs:202
+MISSING_SYMBOL function str_to_ascii_lower_eq_str at tmp/num-traits/src/lib.rs:212
+MISSING_SYMBOL function clamp at tmp/num-traits/src/lib.rs:408
+MISSING_SYMBOL function clamp_min at tmp/num-traits/src/lib.rs:427
+MISSING_SYMBOL function clamp_max at tmp/num-traits/src/lib.rs:444
+MISSING_SYMBOL function clamp_test at tmp/num-traits/src/lib.rs:454
+MISSING_SYMBOL function clamp_nan_min at tmp/num-traits/src/lib.rs:480
+MISSING_SYMBOL function clamp_nan_max at tmp/num-traits/src/lib.rs:487
+MISSING_SYMBOL function clamp_nan_min_max at tmp/num-traits/src/lib.rs:494
+MISSING_SYMBOL function clamp_min_nan_min at tmp/num-traits/src/lib.rs:501
+MISSING_SYMBOL function clamp_max_nan_max at tmp/num-traits/src/lib.rs:508
+MISSING_SYMBOL function from_str_radix_unwrap at tmp/num-traits/src/lib.rs:513
+MISSING_SYMBOL function from_str_radix_multi_byte_fail at tmp/num-traits/src/lib.rs:524
+MISSING_SYMBOL function from_str_radix_ignore_case at tmp/num-traits/src/lib.rs:533
+MISSING_SYMBOL function wrapping_is_num at tmp/num-traits/src/lib.rs:555
+MISSING_SYMBOL function wrapping_from_str_radix at tmp/num-traits/src/lib.rs:562
+MISSING_SYMBOL function check_num_ops at tmp/num-traits/src/lib.rs:578
+MISSING_SYMBOL function check_numref_ops at tmp/num-traits/src/lib.rs:586
+MISSING_SYMBOL function check_refnum_ops at tmp/num-traits/src/lib.rs:594
+MISSING_SYMBOL function check_refref_ops at tmp/num-traits/src/lib.rs:605
+MISSING_SYMBOL function check_numassign_ops at tmp/num-traits/src/lib.rs:616
+MISSING_SYMBOL function check_numassignref_ops at tmp/num-traits/src/lib.rs:630
+MISSING_FILE macros.rs
+PRESENT type CheckedAdd at tmp/num-traits/src/ops/checked.rs:5 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:7
+PRESENT type CheckedSub at tmp/num-traits/src/ops/checked.rs:39 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:17
+PRESENT type CheckedMul at tmp/num-traits/src/ops/checked.rs:63 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:27
+PRESENT type CheckedDiv at tmp/num-traits/src/ops/checked.rs:87 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:38
+PRESENT type CheckedRem at tmp/num-traits/src/ops/checked.rs:111 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:49
+PRESENT type CheckedNeg at tmp/num-traits/src/ops/checked.rs:162 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:59
+PRESENT type CheckedShl at tmp/num-traits/src/ops/checked.rs:200 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:66
+PRESENT type CheckedShr at tmp/num-traits/src/ops/checked.rs:246 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:76
+EXTRA_TARGET_SYMBOL function CheckedAdd::checkedAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:8
+EXTRA_TARGET_SYMBOL function CheckedSub::checkedSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:18
+EXTRA_TARGET_SYMBOL function CheckedMul::checkedMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:28
+EXTRA_TARGET_SYMBOL function CheckedDiv::checkedDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:39
+EXTRA_TARGET_SYMBOL function CheckedRem::checkedRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:50
+EXTRA_TARGET_SYMBOL function CheckedNeg::checkedNeg at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:60
+EXTRA_TARGET_SYMBOL function CheckedShl::checkedShl at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:67
+EXTRA_TARGET_SYMBOL function CheckedShr::checkedShr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Checked.kt:77
+PRESENT type Euclid at tmp/num-traits/src/ops/euclid.rs:3 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:60
+PRESENT function div_euclid at tmp/num-traits/src/ops/euclid.rs:132 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:285
+PRESENT function rem_euclid at tmp/num-traits/src/ops/euclid.rs:141 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:293
+PRESENT function div_euclid at tmp/num-traits/src/ops/euclid.rs:154 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:285
+PRESENT function rem_euclid at tmp/num-traits/src/ops/euclid.rs:163 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:293
+PRESENT type CheckedEuclid at tmp/num-traits/src/ops/euclid.rs:173 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:89
+MISSING_SYMBOL function euclid_unsigned at tmp/num-traits/src/ops/euclid.rs:266
+MISSING_SYMBOL function euclid_signed at tmp/num-traits/src/ops/euclid.rs:284
+MISSING_SYMBOL function euclid_float at tmp/num-traits/src/ops/euclid.rs:307
+MISSING_SYMBOL function euclid_checked at tmp/num-traits/src/ops/euclid.rs:331
+EXTRA_TARGET_SYMBOL type DivRemByte at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:7
+EXTRA_TARGET_SYMBOL property DivRemByte::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:8
+EXTRA_TARGET_SYMBOL property DivRemByte::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:9
+EXTRA_TARGET_SYMBOL type DivRemShort at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:12
+EXTRA_TARGET_SYMBOL property DivRemShort::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:13
+EXTRA_TARGET_SYMBOL property DivRemShort::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:14
+EXTRA_TARGET_SYMBOL type DivRemInt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:17
+EXTRA_TARGET_SYMBOL property DivRemInt::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:18
+EXTRA_TARGET_SYMBOL property DivRemInt::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:19
+EXTRA_TARGET_SYMBOL type DivRemLong at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:22
+EXTRA_TARGET_SYMBOL property DivRemLong::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:23
+EXTRA_TARGET_SYMBOL property DivRemLong::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:24
+EXTRA_TARGET_SYMBOL type DivRemUByte at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:27
+EXTRA_TARGET_SYMBOL property DivRemUByte::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:28
+EXTRA_TARGET_SYMBOL property DivRemUByte::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:29
+EXTRA_TARGET_SYMBOL type DivRemUShort at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:32
+EXTRA_TARGET_SYMBOL property DivRemUShort::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:33
+EXTRA_TARGET_SYMBOL property DivRemUShort::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:34
+EXTRA_TARGET_SYMBOL type DivRemUInt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:37
+EXTRA_TARGET_SYMBOL property DivRemUInt::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:38
+EXTRA_TARGET_SYMBOL property DivRemUInt::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:39
+EXTRA_TARGET_SYMBOL type DivRemULong at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:42
+EXTRA_TARGET_SYMBOL property DivRemULong::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:43
+EXTRA_TARGET_SYMBOL property DivRemULong::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:44
+EXTRA_TARGET_SYMBOL type DivRemFloat at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:47
+EXTRA_TARGET_SYMBOL property DivRemFloat::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:48
+EXTRA_TARGET_SYMBOL property DivRemFloat::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:49
+EXTRA_TARGET_SYMBOL type DivRemDouble at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:52
+EXTRA_TARGET_SYMBOL property DivRemDouble::div at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:53
+EXTRA_TARGET_SYMBOL property DivRemDouble::rem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:54
+EXTRA_TARGET_SYMBOL function Euclid::divEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:64
+EXTRA_TARGET_SYMBOL function Euclid::remEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:72
+EXTRA_TARGET_SYMBOL function Euclid::divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:80
+EXTRA_TARGET_SYMBOL function CheckedEuclid::checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:90
+EXTRA_TARGET_SYMBOL function CheckedEuclid::checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:95
+EXTRA_TARGET_SYMBOL function CheckedEuclid::checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:100
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:123
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:125
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:128
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:131
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:151
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:153
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:156
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:159
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:179
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:181
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:184
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:187
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:207
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:209
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:212
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:215
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:222
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:224
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:226
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:228
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:234
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:236
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:238
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:240
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:246
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:248
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:250
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:252
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:258
+EXTRA_TARGET_SYMBOL function checkedDivEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:260
+EXTRA_TARGET_SYMBOL function checkedRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:262
+EXTRA_TARGET_SYMBOL function checkedDivRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:264
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:283
+EXTRA_TARGET_SYMBOL function divRemEuclid at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Euclid.kt:302
+EXTRA_TARGET_SYMBOL type EuclidTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:8
+EXTRA_TARGET_SYMBOL function EuclidTest::euclidUnsigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:9
+EXTRA_TARGET_SYMBOL function EuclidTest::euclidSigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:21
+EXTRA_TARGET_SYMBOL function EuclidTest::euclidFloat at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:41
+PRESENT type Inv at tmp/num-traits/src/ops/inv.rs:2 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:7
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/inv.rs:21
+MISSING_SYMBOL function inv at tmp/num-traits/src/ops/inv.rs:23
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/inv.rs:28
+MISSING_SYMBOL function inv at tmp/num-traits/src/ops/inv.rs:30
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/inv.rs:35
+MISSING_SYMBOL function inv at tmp/num-traits/src/ops/inv.rs:37
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/inv.rs:42
+MISSING_SYMBOL function inv at tmp/num-traits/src/ops/inv.rs:44
+EXTRA_TARGET_SYMBOL function Inv::inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:11
+EXTRA_TARGET_SYMBOL type F32Inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:14
+EXTRA_TARGET_SYMBOL function F32Inv::inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:15
+EXTRA_TARGET_SYMBOL type F64Inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:18
+EXTRA_TARGET_SYMBOL function F64Inv::inv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:19
+EXTRA_TARGET_SYMBOL function multiplicativeInv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:22
+EXTRA_TARGET_SYMBOL function multiplicativeInv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:24
+MISSING_FILE ops/mod.rs
+PRESENT type MulAdd at tmp/num-traits/src/ops/mul_add.rs:23 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/MulAdd.kt:8
+PRESENT type MulAddAssign at tmp/num-traits/src/ops/mul_add.rs:32 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/MulAdd.kt:19
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/mul_add.rs:39
+PRESENT function mul_add at tmp/num-traits/src/ops/mul_add.rs:42 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/MulAdd.kt:66
+MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/mul_add.rs:49
+PRESENT function mul_add at tmp/num-traits/src/ops/mul_add.rs:52 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/MulAdd.kt:66
+MISSING_SYMBOL function mul_add_assign at tmp/num-traits/src/ops/mul_add.rs:77
+MISSING_SYMBOL function mul_add_assign at tmp/num-traits/src/ops/mul_add.rs:85
+MISSING_SYMBOL function mul_add_integer at tmp/num-traits/src/ops/mul_add.rs:110
+MISSING_SYMBOL function mul_add_float at tmp/num-traits/src/ops/mul_add.rs:130
+EXTRA_TARGET_SYMBOL function MulAdd::mulAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/MulAdd.kt:9
+EXTRA_TARGET_SYMBOL type MulAddTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/MulAddTest.kt:7
+EXTRA_TARGET_SYMBOL function MulAddTest::mulAddInteger at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/MulAddTest.kt:8
+EXTRA_TARGET_SYMBOL function MulAddTest::mulAddFloat at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/MulAddTest.kt:20
+PRESENT type OverflowingAdd at tmp/num-traits/src/ops/overflowing.rs:19 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:51
+PRESENT type OverflowingSub at tmp/num-traits/src/ops/overflowing.rs:42 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:61
+PRESENT type OverflowingMul at tmp/num-traits/src/ops/overflowing.rs:65 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:71
+MISSING_SYMBOL function test_overflowing_traits at tmp/num-traits/src/ops/overflowing.rs:88
+EXTRA_TARGET_SYMBOL type OverflowingByte at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:8
+EXTRA_TARGET_SYMBOL property OverflowingByte::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:9
+EXTRA_TARGET_SYMBOL property OverflowingByte::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:10
+EXTRA_TARGET_SYMBOL type OverflowingShort at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:13
+EXTRA_TARGET_SYMBOL property OverflowingShort::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:14
+EXTRA_TARGET_SYMBOL property OverflowingShort::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:15
+EXTRA_TARGET_SYMBOL type OverflowingInt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:18
+EXTRA_TARGET_SYMBOL property OverflowingInt::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:19
+EXTRA_TARGET_SYMBOL property OverflowingInt::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:20
+EXTRA_TARGET_SYMBOL type OverflowingLong at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:23
+EXTRA_TARGET_SYMBOL property OverflowingLong::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:24
+EXTRA_TARGET_SYMBOL property OverflowingLong::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:25
+EXTRA_TARGET_SYMBOL type OverflowingUByte at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:28
+EXTRA_TARGET_SYMBOL property OverflowingUByte::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:29
+EXTRA_TARGET_SYMBOL property OverflowingUByte::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:30
+EXTRA_TARGET_SYMBOL type OverflowingUShort at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:33
+EXTRA_TARGET_SYMBOL property OverflowingUShort::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:34
+EXTRA_TARGET_SYMBOL property OverflowingUShort::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:35
+EXTRA_TARGET_SYMBOL type OverflowingUInt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:38
+EXTRA_TARGET_SYMBOL property OverflowingUInt::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:39
+EXTRA_TARGET_SYMBOL property OverflowingUInt::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:40
+EXTRA_TARGET_SYMBOL type OverflowingULong at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:43
+EXTRA_TARGET_SYMBOL property OverflowingULong::value at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:44
+EXTRA_TARGET_SYMBOL property OverflowingULong::overflowed at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:45
+EXTRA_TARGET_SYMBOL function OverflowingAdd::overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:52
+EXTRA_TARGET_SYMBOL function OverflowingSub::overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:62
+EXTRA_TARGET_SYMBOL function OverflowingMul::overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:72
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:78
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:81
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:84
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:87
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:90
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:93
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:96
+EXTRA_TARGET_SYMBOL function overflowingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:99
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:102
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:105
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:108
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:111
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:114
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:117
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:120
+EXTRA_TARGET_SYMBOL function overflowingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:123
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:126
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:129
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:132
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:135
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:138
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:141
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:144
+EXTRA_TARGET_SYMBOL function overflowingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Overflowing.kt:147
+EXTRA_TARGET_SYMBOL type OverflowingTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/OverflowingTest.kt:7
+EXTRA_TARGET_SYMBOL function OverflowingTest::testOverflowingTraits at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/OverflowingTest.kt:8
+PRESENT type Saturating at tmp/num-traits/src/ops/saturating.rs:5 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:11
+PRESENT type SaturatingAdd at tmp/num-traits/src/ops/saturating.rs:47 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:26
+PRESENT type SaturatingSub at tmp/num-traits/src/ops/saturating.rs:70 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:36
+PRESENT type SaturatingMul at tmp/num-traits/src/ops/saturating.rs:93 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:46
+MISSING_SYMBOL function test_saturating_traits at tmp/num-traits/src/ops/saturating.rs:118
+EXTRA_TARGET_SYMBOL function Saturating::saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:12
+EXTRA_TARGET_SYMBOL function Saturating::saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:17
+EXTRA_TARGET_SYMBOL function SaturatingAdd::saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:27
+EXTRA_TARGET_SYMBOL function SaturatingSub::saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:37
+EXTRA_TARGET_SYMBOL function SaturatingMul::saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:47
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:53
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:56
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:59
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:62
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:65
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:68
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:71
+EXTRA_TARGET_SYMBOL function saturatingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:74
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:76
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:79
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:82
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:85
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:88
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:90
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:92
+EXTRA_TARGET_SYMBOL function saturatingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:94
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:96
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:99
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:102
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:105
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:108
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:111
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:114
+EXTRA_TARGET_SYMBOL function saturatingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Saturating.kt:117
+EXTRA_TARGET_SYMBOL type SaturatingTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/SaturatingTest.kt:7
+EXTRA_TARGET_SYMBOL function SaturatingTest::testSaturatingTraits at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/SaturatingTest.kt:8
+PRESENT type WrappingAdd at tmp/num-traits/src/ops/wrapping.rs:24 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:7
+PRESENT type WrappingSub at tmp/num-traits/src/ops/wrapping.rs:47 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:17
+PRESENT type WrappingMul at tmp/num-traits/src/ops/wrapping.rs:70 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:27
+PRESENT type WrappingNeg at tmp/num-traits/src/ops/wrapping.rs:104 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:57
+PRESENT type WrappingShl at tmp/num-traits/src/ops/wrapping.rs:152 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:64
+PRESENT type WrappingShr at tmp/num-traits/src/ops/wrapping.rs:187 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:74
+PRESENT function wrapping_add at tmp/num-traits/src/ops/wrapping.rs:226 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:95
+PRESENT function wrapping_sub at tmp/num-traits/src/ops/wrapping.rs:234 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:111
+PRESENT function wrapping_mul at tmp/num-traits/src/ops/wrapping.rs:242 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:127
+PRESENT function wrapping_neg at tmp/num-traits/src/ops/wrapping.rs:250 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:183
+PRESENT function wrapping_shl at tmp/num-traits/src/ops/wrapping.rs:258 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:199
+PRESENT function wrapping_shr at tmp/num-traits/src/ops/wrapping.rs:266 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:215
+MISSING_SYMBOL function test_wrapping_traits at tmp/num-traits/src/ops/wrapping.rs:272
+MISSING_SYMBOL function wrapping_is_wrappingadd at tmp/num-traits/src/ops/wrapping.rs:307
+MISSING_SYMBOL function wrapping_is_wrappingsub at tmp/num-traits/src/ops/wrapping.rs:313
+MISSING_SYMBOL function wrapping_is_wrappingmul at tmp/num-traits/src/ops/wrapping.rs:319
+MISSING_SYMBOL function wrapping_is_wrappingshl at tmp/num-traits/src/ops/wrapping.rs:328
+MISSING_SYMBOL function wrapping_is_wrappingshr at tmp/num-traits/src/ops/wrapping.rs:334
+EXTRA_TARGET_SYMBOL function WrappingAdd::wrappingAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:8
+EXTRA_TARGET_SYMBOL function WrappingSub::wrappingSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:18
+EXTRA_TARGET_SYMBOL function WrappingMul::wrappingMul at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:28
+EXTRA_TARGET_SYMBOL type WrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:37
+EXTRA_TARGET_SYMBOL function WrappingDiv::wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:38
+EXTRA_TARGET_SYMBOL type WrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:47
+EXTRA_TARGET_SYMBOL function WrappingRem::wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:48
+EXTRA_TARGET_SYMBOL function WrappingNeg::wrappingNeg at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:58
+EXTRA_TARGET_SYMBOL function WrappingShl::wrappingShl at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:65
+EXTRA_TARGET_SYMBOL function WrappingShr::wrappingShr at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:75
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:129
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:132
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:135
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:138
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:141
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:143
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:145
+EXTRA_TARGET_SYMBOL function wrappingDiv at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:147
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:149
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:152
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:155
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:158
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:161
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:163
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:165
+EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:167
+EXTRA_TARGET_SYMBOL type WrappingTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:7
+EXTRA_TARGET_SYMBOL function WrappingTest::testWrappingTraits at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:8
+PRESENT type Pow at tmp/num-traits/src/pow.rs:6 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:9
+PRESENT function pow at tmp/num-traits/src/pow.rs:189 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:22
+PRESENT function checked_pow at tmp/num-traits/src/pow.rs:230 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:50
+EXTRA_TARGET_SYMBOL function Pow::pow at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:13
+EXTRA_TARGET_SYMBOL type PowTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/PowTest.kt:8
+EXTRA_TARGET_SYMBOL function PowTest::testPow at src/commonTest/kotlin/io/github/kotlinmania/numtraits/PowTest.kt:9
+EXTRA_TARGET_SYMBOL function PowTest::testCheckedPow at src/commonTest/kotlin/io/github/kotlinmania/numtraits/PowTest.kt:25
+PRESENT type Real at tmp/num-traits/src/real.rs:17 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:8
+EXTRA_TARGET_SYMBOL function Real::minValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:11
+EXTRA_TARGET_SYMBOL function Real::minPositiveValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:13
+EXTRA_TARGET_SYMBOL function Real::epsilon at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:15
+EXTRA_TARGET_SYMBOL function Real::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:17
+EXTRA_TARGET_SYMBOL function Real::floor at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:19
+EXTRA_TARGET_SYMBOL function Real::ceil at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:21
+EXTRA_TARGET_SYMBOL function Real::round at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:23
+EXTRA_TARGET_SYMBOL function Real::trunc at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:25
+EXTRA_TARGET_SYMBOL function Real::fract at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:27
+EXTRA_TARGET_SYMBOL function Real::abs at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:29
+EXTRA_TARGET_SYMBOL function Real::signum at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:31
+EXTRA_TARGET_SYMBOL function Real::isSignPositive at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:33
+EXTRA_TARGET_SYMBOL function Real::isSignNegative at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:35
+EXTRA_TARGET_SYMBOL function Real::mulAdd at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:37
+EXTRA_TARGET_SYMBOL function Real::recip at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:43
+EXTRA_TARGET_SYMBOL function Real::powi at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:45
+EXTRA_TARGET_SYMBOL function Real::powf at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:50
+EXTRA_TARGET_SYMBOL function Real::sqrt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:55
+EXTRA_TARGET_SYMBOL function Real::exp at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:57
+EXTRA_TARGET_SYMBOL function Real::exp2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:59
+EXTRA_TARGET_SYMBOL function Real::ln at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:61
+EXTRA_TARGET_SYMBOL function Real::log at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:63
+EXTRA_TARGET_SYMBOL function Real::log2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:68
+EXTRA_TARGET_SYMBOL function Real::log10 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:70
+EXTRA_TARGET_SYMBOL function Real::toDegrees at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:72
+EXTRA_TARGET_SYMBOL function Real::toRadians at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:74
+EXTRA_TARGET_SYMBOL function Real::max at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:76
+EXTRA_TARGET_SYMBOL function Real::min at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:81
+EXTRA_TARGET_SYMBOL function Real::absSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:86
+EXTRA_TARGET_SYMBOL function Real::cbrt at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:91
+EXTRA_TARGET_SYMBOL function Real::hypot at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:93
+EXTRA_TARGET_SYMBOL function Real::sin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:98
+EXTRA_TARGET_SYMBOL function Real::cos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:100
+EXTRA_TARGET_SYMBOL function Real::tan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:102
+EXTRA_TARGET_SYMBOL function Real::asin at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:104
+EXTRA_TARGET_SYMBOL function Real::acos at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:106
+EXTRA_TARGET_SYMBOL function Real::atan at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:108
+EXTRA_TARGET_SYMBOL function Real::atan2 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:110
+EXTRA_TARGET_SYMBOL function Real::expM1 at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:115
+EXTRA_TARGET_SYMBOL function Real::ln1p at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:117
+EXTRA_TARGET_SYMBOL function Real::sinh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:119
+EXTRA_TARGET_SYMBOL function Real::cosh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:121
+EXTRA_TARGET_SYMBOL function Real::tanh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:123
+EXTRA_TARGET_SYMBOL function Real::asinh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:125
+EXTRA_TARGET_SYMBOL function Real::acosh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:127
+EXTRA_TARGET_SYMBOL function Real::atanh at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Real.kt:129
+PRESENT type Signed at tmp/num-traits/src/sign.rs:8 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:10
+PRESENT function abs at tmp/num-traits/src/sign.rs:85 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:52
+PRESENT function abs_sub at tmp/num-traits/src/sign.rs:90 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:118
+PRESENT function signum at tmp/num-traits/src/sign.rs:95 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:69
+PRESENT function is_positive at tmp/num-traits/src/sign.rs:100 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:179
+PRESENT function is_negative at tmp/num-traits/src/sign.rs:105 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:191
+PRESENT function abs at tmp/num-traits/src/sign.rs:165 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:52
+PRESENT function abs_sub at tmp/num-traits/src/sign.rs:174 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:118
+PRESENT function signum at tmp/num-traits/src/sign.rs:192 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:69
+PRESENT type Unsigned at tmp/num-traits/src/sign.rs:197 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:77
+MISSING_SYMBOL function unsigned_wrapping_is_unsigned at tmp/num-traits/src/sign.rs:212
+EXTRA_TARGET_SYMBOL function Signed::abs at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:16
+EXTRA_TARGET_SYMBOL function Signed::absSub at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:24
+EXTRA_TARGET_SYMBOL function Signed::signum at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:36
+EXTRA_TARGET_SYMBOL function Signed::isPositive at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:41
+EXTRA_TARGET_SYMBOL function Signed::isNegative at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:46
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:79
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:86
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:93
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:95
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:97
+EXTRA_TARGET_SYMBOL function absVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:99
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:127
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:134
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:141
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:148
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:155
+EXTRA_TARGET_SYMBOL function signumVal at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Sign.kt:162
+EXTRA_TARGET_SYMBOL type SignTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/SignTest.kt:9
+EXTRA_TARGET_SYMBOL function SignTest::unsignedWrappingIsUnsigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/SignTest.kt:10
+EXTRA_TARGET_SYMBOL function SignTest::signedWrappingIsSigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/SignTest.kt:21
+EXTRA_TARGET_SYMBOL function SignTest::signedFloat at src/commonTest/kotlin/io/github/kotlinmania/numtraits/SignTest.kt:37
+Inventory totals: present=130, declaration_only=0, missing=94
