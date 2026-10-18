@@ -72,4 +72,65 @@ class IdentitiesTest {
         assertEquals(0.0, F64Num.zeroConstant)
         assertEquals(1.0, F64Num.oneConstant)
     }
+
+    @Test
+    fun wrappingIdentities() {
+        assertEquals(0, I32Num.zero())
+        assertEquals(1, I32Num.one())
+        assertTrue(0.isZero())
+        assertFalse(1.isZero())
+
+        assertEquals(0L, I64Num.zero())
+        assertEquals(1L, I64Num.one())
+        assertTrue(0L.isZero())
+        assertFalse(1L.isZero())
+
+        assertEquals(0.toByte(), I8Num.zero())
+        assertEquals(1.toByte(), I8Num.one())
+        assertTrue(0.toByte().isZero())
+        assertFalse(1.toByte().isZero())
+
+        assertEquals(0.toShort(), I16Num.zero())
+        assertEquals(1.toShort(), I16Num.one())
+        assertTrue(0.toShort().isZero())
+        assertFalse(1.toShort().isZero())
+
+        assertEquals(0u, U32Num.zero())
+        assertEquals(1u, U32Num.one())
+        assertTrue(0u.isZero())
+        assertFalse(1u.isZero())
+
+        assertEquals(0uL, U64Num.zero())
+        assertEquals(1uL, U64Num.one())
+        assertTrue(0uL.isZero())
+        assertFalse(1uL.isZero())
+
+        assertEquals(0.toUByte(), U8Num.zero())
+        assertEquals(1.toUByte(), U8Num.one())
+        assertTrue(0.toUByte().isZero())
+        assertFalse(1.toUByte().isZero())
+
+        assertEquals(0.toUShort(), U16Num.zero())
+        assertEquals(1.toUShort(), U16Num.one())
+        assertTrue(0.toUShort().isZero())
+        assertFalse(1.toUShort().isZero())
+    }
+
+    @Test
+    fun wrappingIsZero() {
+        fun <T> requireZero(type: Zero<T>) {
+            assertTrue(type.isZero(type.zero()))
+        }
+        requireZero(I32Num)
+        requireZero(U32Num)
+    }
+
+    @Test
+    fun wrappingIsOne() {
+        fun <T> requireOne(type: One<T>) {
+            assertTrue(type.isOne(type.one()))
+        }
+        requireOne(I32Num)
+        requireOne(U32Num)
+    }
 }

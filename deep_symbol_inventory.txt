@@ -49,7 +49,8 @@ EXTRA_TARGET_SYMBOL function UnitBounds::minValue at src/commonMain/kotlin/io/gi
 EXTRA_TARGET_SYMBOL function UnitBounds::maxValue at src/commonMain/kotlin/io/github/kotlinmania/numtraits/Bounds.kt:94
 EXTRA_TARGET_SYMBOL type BoundsTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:7
 EXTRA_TARGET_SYMBOL function BoundsTest::testWrappingBounds at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:8
-EXTRA_TARGET_SYMBOL function BoundsTest::wrappingIsBounded at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:17
+EXTRA_TARGET_SYMBOL function BoundsTest::wrappingBounded at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:17
+EXTRA_TARGET_SYMBOL function BoundsTest::wrappingIsBounded at src/commonTest/kotlin/io/github/kotlinmania/numtraits/BoundsTest.kt:34
 PRESENT type ToPrimitive at tmp/num-traits/src/cast.rs:19 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:11
 PRESENT function ToPrimitive::to_isize at tmp/num-traits/src/cast.rs:23 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:23
 PRESENT function ToPrimitive::to_i8 at tmp/num-traits/src/cast.rs:30 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Cast.kt:12
@@ -253,8 +254,10 @@ EXTRA_TARGET_SYMBOL property FloatTest::degRadPairs at src/commonTest/kotlin/io/
 EXTRA_TARGET_SYMBOL function FloatTest::convertDegRad at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:22
 EXTRA_TARGET_SYMBOL function FloatTest::toDegreesRounding at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:35
 EXTRA_TARGET_SYMBOL function FloatTest::extraLogs at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:43
-EXTRA_TARGET_SYMBOL function FloatTest::copysign at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:73
-EXTRA_TARGET_SYMBOL function FloatTest::testCopysignGeneric at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:79
+EXTRA_TARGET_SYMBOL function FloatTest::convertDegRadStd at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:73
+EXTRA_TARGET_SYMBOL function FloatTest::copysign at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:86
+EXTRA_TARGET_SYMBOL function FloatTest::testCopysignf at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:93
+EXTRA_TARGET_SYMBOL function FloatTest::testCopysignGeneric at src/commonTest/kotlin/io/github/kotlinmania/numtraits/FloatTest.kt:109
 PRESENT type Zero at tmp/num-traits/src/identities.rs:12 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:7
 PRESENT function Zero::set_zero at tmp/num-traits/src/identities.rs:23 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:21
 PRESENT function is_zero at tmp/num-traits/src/identities.rs:69 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Identities.kt:92
@@ -290,6 +293,9 @@ EXTRA_TARGET_SYMBOL function isOne at src/commonMain/kotlin/io/github/kotlinmani
 EXTRA_TARGET_SYMBOL type IdentitiesTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:9
 EXTRA_TARGET_SYMBOL function IdentitiesTest::zeroAndOnePrimitives at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:10
 EXTRA_TARGET_SYMBOL function IdentitiesTest::constIdentities at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:64
+EXTRA_TARGET_SYMBOL function IdentitiesTest::wrappingIdentities at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:76
+EXTRA_TARGET_SYMBOL function IdentitiesTest::wrappingIsZero at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:119
+EXTRA_TARGET_SYMBOL function IdentitiesTest::wrappingIsOne at src/commonTest/kotlin/io/github/kotlinmania/numtraits/IdentitiesTest.kt:128
 PRESENT type PrimInt at tmp/num-traits/src/int.rs:34 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:13
 PRESENT function PrimInt::leading_ones at tmp/num-traits/src/int.rs:93 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:80
 PRESENT function PrimInt::trailing_ones at tmp/num-traits/src/int.rs:123 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Int.kt:90
@@ -467,6 +473,7 @@ EXTRA_TARGET_SYMBOL type EuclidTest at src/commonTest/kotlin/io/github/kotlinman
 EXTRA_TARGET_SYMBOL function EuclidTest::euclidUnsigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:9
 EXTRA_TARGET_SYMBOL function EuclidTest::euclidSigned at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:21
 EXTRA_TARGET_SYMBOL function EuclidTest::euclidFloat at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:41
+EXTRA_TARGET_SYMBOL function EuclidTest::euclidChecked at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/EuclidTest.kt:56
 PRESENT type Inv at tmp/num-traits/src/ops/inv.rs:2 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Inv.kt:7
 MISSING_SYMBOL type_alias Output at tmp/num-traits/src/ops/inv.rs:21
 MISSING_SYMBOL function inv at tmp/num-traits/src/ops/inv.rs:23
@@ -637,6 +644,11 @@ EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotl
 EXTRA_TARGET_SYMBOL function wrappingRem at src/commonMain/kotlin/io/github/kotlinmania/numtraits/ops/Wrapping.kt:167
 EXTRA_TARGET_SYMBOL type WrappingTest at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:7
 EXTRA_TARGET_SYMBOL function WrappingTest::testWrappingTraits at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:8
+EXTRA_TARGET_SYMBOL function WrappingTest::wrappingIsWrappingadd at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:26
+EXTRA_TARGET_SYMBOL function WrappingTest::wrappingIsWrappingsub at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:36
+EXTRA_TARGET_SYMBOL function WrappingTest::wrappingIsWrappingmul at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:46
+EXTRA_TARGET_SYMBOL function WrappingTest::wrappingIsWrappingshl at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:56
+EXTRA_TARGET_SYMBOL function WrappingTest::wrappingIsWrappingshr at src/commonTest/kotlin/io/github/kotlinmania/numtraits/ops/WrappingTest.kt:66
 PRESENT type Pow at tmp/num-traits/src/pow.rs:6 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:9
 PRESENT function pow at tmp/num-traits/src/pow.rs:189 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:22
 PRESENT function checked_pow at tmp/num-traits/src/pow.rs:230 -> src/commonMain/kotlin/io/github/kotlinmania/numtraits/Pow.kt:50

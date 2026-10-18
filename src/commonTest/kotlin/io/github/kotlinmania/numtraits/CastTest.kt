@@ -1,4 +1,4 @@
-// port-lint: source tests/cast.rs
+// port-lint: tests tests/cast.rs
 package io.github.kotlinmania.numtraits
 
 import kotlin.test.Test
