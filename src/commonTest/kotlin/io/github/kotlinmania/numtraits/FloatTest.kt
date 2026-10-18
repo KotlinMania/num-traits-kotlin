@@ -71,9 +71,39 @@ class FloatTest {
     }
 
     @Test
+    fun convertDegRadStd() {
+        for ((deg, rad) in degRadPairs) {
+            assertTrue(abs(F64Num.toDegrees(rad) - deg) < 1e-6)
+            assertTrue(abs(F64Num.toRadians(deg) - rad) < 1e-6)
+
+            val degF = deg.toFloat()
+            val radF = rad.toFloat()
+            assertTrue(abs(F32Num.toDegrees(radF) - degF) < 1e-5f)
+            assertTrue(abs(F32Num.toRadians(degF) - radF) < 1e-5f)
+        }
+    }
+
+    @Test
     fun copysign() {
         testCopysignGeneric(F32Num, 2.0f, -2.0f, Float.NaN)
         testCopysignGeneric(F64Num, 2.0, -2.0, Double.NaN)
+        testCopysignf(2.0f, -2.0f, Float.NaN)
+    }
+
+    private fun testCopysignf(
+        p: Float,
+        n: Float,
+        nan: Float,
+    ) {
+        assertTrue(F32Num.isSignPositive(p))
+        assertTrue(F32Num.isSignNegative(n))
+        assertTrue(F32Num.isNan(nan))
+
+        assertEquals(p, F32Num.copysign(p, p))
+        assertEquals(-p, F32Num.copysign(p, n))
+
+        assertEquals(n, F32Num.copysign(n, n))
+        assertEquals(-n, F32Num.copysign(n, p))
     }
 
     private fun <F> testCopysignGeneric(

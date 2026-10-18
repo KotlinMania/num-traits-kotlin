@@ -22,4 +22,54 @@ class WrappingTest {
         assertEquals(Long.MIN_VALUE, Long.MIN_VALUE.wrappingDiv(-1L))
         assertEquals(0L, Long.MIN_VALUE.wrappingRem(-1L))
     }
+
+    @Test
+    fun wrappingIsWrappingadd() {
+        fun <T> requireWrappingadd(op: WrappingAdd<T>, a: T, b: T): T = op.wrappingAdd(a, b)
+        val intWrappingAdd =
+            object : WrappingAdd<Int> {
+                override fun wrappingAdd(a: Int, b: Int): Int = a.wrappingAdd(b)
+            }
+        assertEquals(43, requireWrappingadd(intWrappingAdd, 42, 1))
+    }
+
+    @Test
+    fun wrappingIsWrappingsub() {
+        fun <T> requireWrappingsub(op: WrappingSub<T>, a: T, b: T): T = op.wrappingSub(a, b)
+        val intWrappingSub =
+            object : WrappingSub<Int> {
+                override fun wrappingSub(a: Int, b: Int): Int = a.wrappingSub(b)
+            }
+        assertEquals(41, requireWrappingsub(intWrappingSub, 42, 1))
+    }
+
+    @Test
+    fun wrappingIsWrappingmul() {
+        fun <T> requireWrappingmul(op: WrappingMul<T>, a: T, b: T): T = op.wrappingMul(a, b)
+        val intWrappingMul =
+            object : WrappingMul<Int> {
+                override fun wrappingMul(a: Int, b: Int): Int = a.wrappingMul(b)
+            }
+        assertEquals(84, requireWrappingmul(intWrappingMul, 42, 2))
+    }
+
+    @Test
+    fun wrappingIsWrappingshl() {
+        fun <T> requireWrappingshl(op: WrappingShl<T>, a: T, b: UInt): T = op.wrappingShl(a, b)
+        val intWrappingShl =
+            object : WrappingShl<Int> {
+                override fun wrappingShl(a: Int, rhs: UInt): Int = a.wrappingShl(rhs)
+            }
+        assertEquals(84, requireWrappingshl(intWrappingShl, 42, 1u))
+    }
+
+    @Test
+    fun wrappingIsWrappingshr() {
+        fun <T> requireWrappingshr(op: WrappingShr<T>, a: T, b: UInt): T = op.wrappingShr(a, b)
+        val intWrappingShr =
+            object : WrappingShr<Int> {
+                override fun wrappingShr(a: Int, rhs: UInt): Int = a.wrappingShr(rhs)
+            }
+        assertEquals(21, requireWrappingshr(intWrappingShr, 42, 1u))
+    }
 }

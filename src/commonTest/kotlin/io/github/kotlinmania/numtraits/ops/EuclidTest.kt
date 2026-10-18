@@ -52,4 +52,27 @@ class EuclidTest {
         assertEquals(1.0, (-a).remEuclid(b))
         assertEquals(1.0, (-a).remEuclid(-b))
     }
+
+    @Test
+    fun euclidChecked() {
+        assertNull(Byte.MIN_VALUE.checkedDivEuclid((-1).toByte()))
+        assertNull(Byte.MIN_VALUE.checkedRemEuclid((-1).toByte()))
+        assertNull(1.toByte().checkedDivEuclid(0.toByte()))
+        assertNull(1.toByte().checkedRemEuclid(0.toByte()))
+
+        assertNull(Short.MIN_VALUE.checkedDivEuclid((-1).toShort()))
+        assertNull(Short.MIN_VALUE.checkedRemEuclid((-1).toShort()))
+        assertNull(1.toShort().checkedDivEuclid(0.toShort()))
+        assertNull(1.toShort().checkedRemEuclid(0.toShort()))
+
+        assertNull(Int.MIN_VALUE.checkedDivEuclid(-1))
+        assertNull(Int.MIN_VALUE.checkedRemEuclid(-1))
+        assertNull(1.checkedDivEuclid(0))
+        assertNull(1.checkedRemEuclid(0))
+
+        assertNull(Long.MIN_VALUE.checkedDivEuclid(-1L))
+        assertNull(Long.MIN_VALUE.checkedRemEuclid(-1L))
+        assertNull(1L.checkedDivEuclid(0L))
+        assertNull(1L.checkedRemEuclid(0L))
+    }
 }

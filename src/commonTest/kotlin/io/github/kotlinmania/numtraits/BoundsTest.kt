@@ -15,7 +15,7 @@ class BoundsTest {
     }
 
     @Test
-    fun wrappingIsBounded() {
+    fun wrappingBounded() {
         testWrappingBounds(ByteBounds, Byte.MIN_VALUE, Byte.MAX_VALUE)
         testWrappingBounds(ShortBounds, Short.MIN_VALUE, Short.MAX_VALUE)
         testWrappingBounds(IntBounds, Int.MIN_VALUE, Int.MAX_VALUE)
@@ -27,5 +27,17 @@ class BoundsTest {
         testWrappingBounds(FloatBounds, -Float.MAX_VALUE, Float.MAX_VALUE)
         testWrappingBounds(DoubleBounds, -Double.MAX_VALUE, Double.MAX_VALUE)
         testWrappingBounds(UnitBounds, Unit, Unit)
+    }
+
+    // wrapping_bounded_i128 unported: standard Kotlin Multiplatform primitives do not include native 128-bit integers.
+
+    @Test
+    fun wrappingIsBounded() {
+        fun <T> requireBounded(bounds: Bounded<T>) {
+            assertEquals(bounds.minValue(), bounds.minValue())
+            assertEquals(bounds.maxValue(), bounds.maxValue())
+        }
+        requireBounded(UIntBounds)
+        requireBounded(IntBounds)
     }
 }

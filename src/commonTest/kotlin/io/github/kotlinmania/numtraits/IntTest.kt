@@ -40,4 +40,6 @@ class IntTest {
         assertEquals(Long.MAX_VALUE, I64Num.reverseBits(-2L))
         assertEquals(-2L, I64Num.reverseBits(Long.MAX_VALUE))
     }
+
+    // reverse_bits_i128 unported: standard Kotlin Multiplatform primitives do not include native 128-bit integers.
 }
